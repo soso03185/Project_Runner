@@ -1,51 +1,73 @@
+using System.Collections.Generic;
+using System.Diagnostics.Tracing;
+using System.IO;
+using Unity.VisualScripting;
+using UnityEditor.EditorTools;
 using UnityEngine;
+using static Define;
 
-public class ResourceManager : MonoBehaviour
-{
-   public T Load<T>(string path) where T : Object
+/// <summary>
+/// 모든 Resource 관리 (Object Pool 포함)
+/// 씬에 스크립트가 붙어있어야 함. (싱글톤)
+/// </summary>
+/// 
+public class ResourceManager : Singleton<ResourceManager>
+{    
+    PoolManager poolManager;
+
+    public override void Awake()
     {
-        if(typeof(T) == typeof(GameObject))
+        base.Awake();
+        poolManager = new PoolManager();
+        poolManager.Init();
+    }
+
+    public T Load<T>(string path) where T : Object
+    {
+        if (typeof(T) == typeof(GameObject))
         {
             string name = path;
             int index = name.LastIndexOf('/');
 
-            if (index >= 0)
+            if (index > 0)
                 name = name.Substring(index + 1);
 
-            // Pool Object
-            //
-            //
+            GameObject go = poolManager.GetOriginal(name);
+            if (go != null)
+                return go as T;
         }
+
         return Resources.Load<T>(path);
     }
 
-    public GameObject Instantiate(string path, Transform parent = null)
+    public GameObject InstantiatePrefab(string path, Transform parent = null)
     {
         GameObject original = Load<GameObject>($"Prefabs/{path}");
-        if(original == null)
+
+        if (original == null)
         {
-            Debug.Log($"Failed to load prefab : {path}");
+            DEBUG_ERROR($"Failed to load prefab : {path}");
             return null;
         }
-        // Pool Object
-        //
-        //
 
-        GameObject go = Object.Instantiate(original, parent);
-        go.name = original.name;
+        // Object Pool
+        if (original.GetComponent<Poolable>() != null)
+            return poolManager.Pop(original,parent).gameObject;        
 
-        return go;
+
+         // Object Pool이 아닌 경우
+         GameObject go = Object.Instantiate(original, parent);
+         go.name = original.name;
+         return go;
     }
 
     public void Destroy(GameObject go)
     {
-        if (go == null)        
-            return;
+        var poolable = go.GetComponent<Poolable>();
 
-        // Pool Object
-        //
-        //
-
-        Object.Destroy(go);           
+        if (poolable == null) 
+            Object.Destroy(go);
+        else
+            poolManager.Push(poolable);
     }
 }

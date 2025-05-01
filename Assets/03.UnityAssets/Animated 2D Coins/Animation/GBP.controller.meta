@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ebfbe114dd709da4e93c2cacdfa82f64
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 22097
+  packageName: Animated 2D Coins
+  packageVersion: 1.0
+  assetPath: Assets/Animated 2D Coins/Animation/GBP.controller
+  uploadId: 39955

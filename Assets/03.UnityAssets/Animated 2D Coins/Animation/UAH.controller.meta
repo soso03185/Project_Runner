@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e50b111752169984b91c2efa59cb12bd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 22097
+  packageName: Animated 2D Coins
+  packageVersion: 1.0
+  assetPath: Assets/Animated 2D Coins/Animation/UAH.controller
+  uploadId: 39955
