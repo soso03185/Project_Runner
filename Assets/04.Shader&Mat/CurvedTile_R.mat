@@ -139,7 +139,7 @@ Material:
     - _Xway_Strength: 0.004
     - _Yway_Strength: -0.001
     - _ZWrite: 1
-    - _Z_Threshold: 18
+    - _Z_Threshold: 17.8
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

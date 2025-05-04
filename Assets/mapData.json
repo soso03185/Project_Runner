@@ -1,0 +1,153 @@
+{
+    "gridSizeX": 3,
+    "gridSizeZ": 50,
+    "tiles": [
+        {
+            "x": 0,
+            "z": 0,
+            "prefabPath": "Assets/Resources/Prefabs/NormalTile_L.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.9215686321258545,
+                "b": 0.01568627543747425,
+                "a": 1.0
+            }
+        },
+        {
+            "x": 0,
+            "z": 1,
+            "prefabPath": "Assets/Resources/Prefabs/NormalTile_L.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.9215686321258545,
+                "b": 0.01568627543747425,
+                "a": 1.0
+            }
+        },
+        {
+            "x": 1,
+            "z": 0,
+            "prefabPath": "Assets/03.UnityAssets/PolygonPrototype/Prefabs/Characters/Character_Male_NoFace_01.prefab",
+            "position": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "x": 1,
+            "z": 1,
+            "prefabPath": "Assets/03.UnityAssets/PolygonPrototype/Prefabs/Characters/Character_Male_NoFace_01.prefab",
+            "position": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "x": 1,
+            "z": 2,
+            "prefabPath": "Assets/03.UnityAssets/PolygonPrototype/Prefabs/Characters/Character_Male_NoFace_01.prefab",
+            "position": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 2.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "x": 2,
+            "z": 0,
+            "prefabPath": "Assets/Resources/Prefabs/NormalTile_L.prefab",
+            "position": {
+                "x": 2.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.9215686321258545,
+                "b": 0.01568627543747425,
+                "a": 1.0
+            }
+        },
+        {
+            "x": 2,
+            "z": 1,
+            "prefabPath": "Assets/Resources/Prefabs/NormalTile_L.prefab",
+            "position": {
+                "x": 2.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.9215686321258545,
+                "b": 0.01568627543747425,
+                "a": 1.0
+            }
+        }
+    ],
+    "objects": [
+        {
+            "x": 0,
+            "z": 1,
+            "prefabPath": "Assets/Resources/Prefabs/GoldCoin.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.5,
+                "z": 1.0
+            },
+            "objectType": "Coin"
+        },
+        {
+            "x": 1,
+            "z": 1,
+            "prefabPath": "Assets/Resources/Prefabs/GoldCoin.prefab",
+            "position": {
+                "x": 1.0,
+                "y": 0.5,
+                "z": 1.0
+            },
+            "objectType": "Coin"
+        },
+        {
+            "x": 2,
+            "z": 1,
+            "prefabPath": "Assets/Resources/Prefabs/GoldCoin.prefab",
+            "position": {
+                "x": 2.0,
+                "y": 0.5,
+                "z": 1.0
+            },
+            "objectType": "Coin"
+        }
+    ]
+}
