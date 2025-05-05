@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // 목표 위치 계산 (X 위치만 갱신)
-        float targetX = (m_CurrentLane - 1) * m_LaneDistance;
+        float targetX = (m_CurrentLane) * m_LaneDistance;
         m_TargetPos = new Vector3(targetX, transform.position.y, transform.position.z);
     }
 

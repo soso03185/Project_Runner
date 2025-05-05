@@ -1,69 +1,64 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
+using UnityEditor.Overlays;
 using UnityEngine;
+using UnityEngine.Tilemaps;
+using UnityEngine.UIElements;
+using UnityEngine.WSA;
+using static Define;
 
 /// <summary>
 /// 게임을 시작했을때 맵의 Tile과 Item들을 생성해주는 Generator
 /// </summary>
 /// 
-public class MapGenerator : MonoBehaviour
-{
+public class MapGenerator : Singleton<MapGenerator>
+{    
     public Vector2 m_TileMatrix = Vector2.zero; // 전체 타일의 행렬
     public float m_TileOffset = 0.1f;           // 타일 간의 간격
 
-    string N_TileName_L = "NormalTile_L";           // 일반 타일 Left
-    string N_TileName_M = "NormalTile_M";           // 일반 타일 Mid
-    string N_TileName_R = "NormalTile_R";           // 일반 타일 Right
-    string N_GoldCoin = "GoldCoin";           // 골드 재화
+    private MapLoader m_MapLoader;
+    private List<MapData> m_stageData;
+
+    public override void Awake()
+    {
+        base.Awake();
+        m_MapLoader = new MapLoader();
+        m_MapLoader.Init();
+    }
 
     private void Start()
     {
-        SpawnTileAtPosition(N_TileName_L, 0);
-        SpawnTileAtPosition(N_TileName_M, 1);
-        SpawnTileAtPosition(N_TileName_R, 2);
-        SpawnItemAtPosition();
+        m_stageData = m_MapLoader.m_StageDataList;
+        StageCreate(1);
     }
 
-    void SpawnTileAtPosition(string tileName, int index)
+    void StageCreate(int stage)
     {
-        int centerOffset = (int)m_TileMatrix.x / 2; // Player Center Line Start
+        if (stage > m_stageData.Count)
+            DEBUG_ERROR("over Stage Index");
+        
+        stage--;
 
-        Transform parent = new GameObject().transform;
-        parent.name = $"{tileName}.Parent";
 
-        for (int i = 0; i < m_TileMatrix.x; i++)
+        Transform tileParent = new GameObject().transform;
+        tileParent.name = $"Tiles.Parent";
+
+        foreach (var tile in m_stageData[stage].tiles) // "Tile"
         {
-            for (int j = 0; j < m_TileMatrix.y; j++)
-            {
-                GameObject tile = ResourceManager.Instance.InstantiatePrefab(tileName);
-                float tileScaleX = tile.transform.localScale.x + m_TileOffset; // 현재 0.01 오차 생김. (오류)
-                
-                // index : 0-L, 1-M, 2-R
-                Vector3 spawnPosition = new Vector3((tileScaleX * index) - (tileScaleX * centerOffset), 0f, tileScaleX * j);                
-                tile.transform.position = spawnPosition;
-                tile.transform.parent = parent;
-            }
+            GameObject go = ResourceManager.Instance.InstantiatePrefab(tile.PrefabName);
+            go.transform.position = tile.position;
+            go.transform.parent = tileParent;
+        }
+
+        Transform objParent = new GameObject().transform;
+        objParent.name = $"Object.Parent";
+
+        foreach (var obj in m_stageData[stage].objects) // "Object"
+        {
+            GameObject go = ResourceManager.Instance.InstantiatePrefab(obj.PrefabName);
+            go.transform.position = obj.position;
+            go.transform.parent = objParent;
         }
     }
-
-    void SpawnItemAtPosition()
-    {
-        GameObject prefab = Resources.Load<GameObject>($"Prefabs/{N_GoldCoin}");
-        if (prefab == null)
-        {
-            Debug.LogError($"Prefabs 폴더에 '{prefab}' 프리팹이 존재하지 않습니다.");
-            return;
-        }
-
-        float[] positionX = new float[] { 0.2f, 1, -0.6f }; // 중, 우, 좌 // 차이인 0.8f은 타일의 크기임. 나중에 관리하기 편하게 바꾸기
-
-        GameObject parent = new GameObject();
-        parent.name = $"{N_GoldCoin}.Parent";
-
-        for (int i = 0; i < 100; i++)
-        {
-            Vector3 spawnPosition = new Vector3(positionX[Random.Range(0, 3)], 0.5f, 2.4f * i);
-            Instantiate(prefab, spawnPosition, Quaternion.identity, parent.transform);
-        }
-    } 
 }

@@ -3,7 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using static Define;
 
-public class PoolManager : MonoBehaviour
+public class PoolManager
 {
     class Pool
     {

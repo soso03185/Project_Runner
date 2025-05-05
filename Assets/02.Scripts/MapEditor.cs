@@ -612,5 +612,4 @@ public class MapEditor : EditorWindow
         public List<TileSaveData> tiles = new();
         public List<ObjectSaveData> objects = new();
     }
-
 }
