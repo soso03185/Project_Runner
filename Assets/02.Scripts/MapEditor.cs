@@ -94,14 +94,15 @@ public class MapEditor : EditorWindow
     private void OnGUI()
     {
         GUILayout.BeginHorizontal();
-        if (GUILayout.Button(" Save", GUILayout.Height(30)))
+        if (GUILayout.Button("Save", GUILayout.Height(30)))
         {
             SaveMapData();
         }
-        if (GUILayout.Button(" Load", GUILayout.Height(30)))
+        if (GUILayout.Button("Load", GUILayout.Height(30)))
         {
             LoadMapData();
         }
+
         GUILayout.EndHorizontal();
 
         mainScroll = EditorGUILayout.BeginScrollView(
