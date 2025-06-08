@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour
     private float m_InitialY;
     private float m_ZOffset;
 
-    void Start()
+    public void Init()
     {
         if (m_Target == null)
         {

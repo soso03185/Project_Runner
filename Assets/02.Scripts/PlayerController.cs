@@ -1,5 +1,6 @@
 using System;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.XR;
 using static Define;
@@ -24,7 +25,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody m_Rigidbody;
 
     void Start()
-    {
+    {        
         m_Rigidbody = GetComponent<Rigidbody>();
         m_TargetPos = transform.position;
     }
@@ -81,7 +82,13 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Coin"))
         {
             DEBUG_LOG("TestCoin");
+            UIController.Instance.GetCoin(++DataManager.m_GameCoin);
             Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Monster"))
+        {
+
         }
     }
 }

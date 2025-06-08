@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Diagnostics;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.Overlays;
@@ -14,9 +15,6 @@ using static Define;
 /// 
 public class MapGenerator : Singleton<MapGenerator>
 {    
-    public Vector2 m_TileMatrix = Vector2.zero; // 전체 타일의 행렬
-    public float m_TileOffset = 0.1f;           // 타일 간의 간격
-
     private MapLoader m_MapLoader;
     private List<MapData> m_stageData;
 
@@ -24,7 +22,7 @@ public class MapGenerator : Singleton<MapGenerator>
     {
         base.Awake();
         m_MapLoader = new MapLoader();
-        m_MapLoader.Init();
+        m_MapLoader.Init(); // Data Load
     }
 
     private void Start()
@@ -40,14 +38,13 @@ public class MapGenerator : Singleton<MapGenerator>
         
         stage--;
 
-
         Transform tileParent = new GameObject().transform;
         tileParent.name = $"Tiles.Parent";
 
         foreach (var tile in m_stageData[stage].tiles) // "Tile"
         {
             GameObject go = ResourceManager.Instance.InstantiatePrefab(tile.PrefabName);
-            go.transform.position = tile.position;
+            go.transform.position = tile.position;            
             go.transform.parent = tileParent;
         }
 

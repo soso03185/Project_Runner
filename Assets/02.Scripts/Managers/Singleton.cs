@@ -7,6 +7,7 @@ using UnityEngine;
 public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T mInstance;
+    protected bool mIsDontDestroy = false;
 
     public static T Instance
     {
@@ -38,6 +39,11 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 
     protected bool CheckInstance()
     {
+        if(mIsDontDestroy == true)
+        {
+            DontDestroyOnLoad(this);
+        }
+
         if (this == Instance)
         {
             return true;

@@ -135,11 +135,12 @@ Material:
     - _Surface: 0
     - _Tile_Strength_X: 0
     - _Tile_Strength_Y: 0
+    - _UseCustomPos: 0
     - _WorkflowMode: 1
-    - _Xway_Strength: 0.004
+    - _Xway_Strength: 0.008
     - _Yway_Strength: -0.001
     - _ZWrite: 1
-    - _Z_Threshold: 17.8
+    - _Z_Threshold: 18
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

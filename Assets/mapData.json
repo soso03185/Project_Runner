@@ -20636,6 +20636,17 @@
         },
         {
             "x": 1,
+            "z": 7,
+            "prefabPath": "Assets/Resources/Prefabs/Enemy_Tree.prefab",
+            "position": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "objectType": "Monster"
+        },
+        {
+            "x": 1,
             "z": 8,
             "prefabPath": "Assets/Resources/Prefabs/GoldCoin.prefab",
             "position": {

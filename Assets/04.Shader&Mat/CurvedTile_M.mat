@@ -136,8 +136,8 @@ Material:
     - _Tile_Strength_X: 0
     - _Tile_Strength_Y: 0
     - _WorkflowMode: 1
-    - _Xway_Strength: -0.004
-    - _Yway_Strength: -0.001
+    - _Xway_Strength: 0
+    - _Yway_Strength: 0
     - _ZWrite: 1
     - _Z_Threshold: 18
     m_Colors:

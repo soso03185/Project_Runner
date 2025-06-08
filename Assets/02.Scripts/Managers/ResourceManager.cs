@@ -12,7 +12,9 @@ public class ResourceManager : Singleton<ResourceManager>
 
     public override void Awake()
     {
+        mIsDontDestroy = true;
         base.Awake();
+
         poolManager = new PoolManager();
         poolManager.Init();
     }
