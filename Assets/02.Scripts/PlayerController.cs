@@ -1,31 +1,35 @@
 using System;
+using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.XR;
 using static Define;
+using static UnityEngine.EventSystems.EventTrigger;
 
 /// <summary>
 /// Player의 전체적인 관리를 해주는 곳
 /// </summary>
 /// 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IDamageable
 {
     [SerializeField] private float m_FallMultiplier = 3f;
     [SerializeField] private float m_LowJumpMultiplier = 5f;
 
-    public float m_ForwardSpeed = 5f;          // 전진 속도
-    public float m_LaneDistance = 2.5f;        // 레인 간 거리
-    public float m_LaneSwitchSpeed = 10f;      // 좌우 전환 속도
-    public float m_JumpForce = 7f;  // 점프 힘
+    float m_ForwardSpeed = 5f;          // 전진 속도
+    float m_LaneDistance = 1.0f;        // 레인 간 거리
+    float m_LaneSwitchSpeed = 10f;      // 좌우 전환 속도
+    float m_JumpForce = 7f;             // 점프 힘
+    int m_CurrentLane = 1;              // 0 = 왼쪽, 1 = 중간, 2 = 오른쪽
+    float m_AttackDamage = 99;
 
-    private int m_CurrentLane = 1;             // 0 = 왼쪽, 1 = 중간, 2 = 오른쪽
-    private bool m_IsGrounded = true;
-    private Vector3 m_TargetPos;
+    bool m_IsGrounded = true;
+    bool m_IsKnockBack = false;
+    Vector3 m_TargetPos;
     Rigidbody m_Rigidbody;
 
     void Start()
-    {        
+    {
         m_Rigidbody = GetComponent<Rigidbody>();
         m_TargetPos = transform.position;
     }
@@ -47,7 +51,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // 목표 위치 계산 (X 위치만 갱신)
-        float targetX = (m_CurrentLane) * m_LaneDistance;
+        float targetX = m_CurrentLane * m_LaneDistance;
         m_TargetPos = new Vector3(targetX, transform.position.y, transform.position.z);
     }
 
@@ -77,18 +81,55 @@ public class PlayerController : MonoBehaviour
         m_Rigidbody.MovePosition(newPosition);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Coin"))
+        if (other.gameObject.CompareTag("Coin"))
         {
-            DEBUG_LOG("TestCoin");
             UIController.Instance.GetCoin(++DataManager.m_GameCoin);
-            Destroy(collision.gameObject);
-        }
-
-        if (collision.gameObject.CompareTag("Monster"))
-        {
-
+            Destroy(other.gameObject);
         }
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            LaneObject laneObj = other.gameObject.GetComponent<LaneObject>();
+            if (laneObj.m_CurrentLane == m_CurrentLane)
+            {
+                if (m_IsKnockBack == false)
+                {
+                    StartCoroutine(CoKnockBack());
+                    Attack(laneObj);
+                }
+            }
+        }
+    }
+
+    public void TakeDamage(float damage, Vector3 attackPos)
+    {
+
+    }
+
+    void Attack(LaneObject laneObj)
+    {
+        if(laneObj.TryGetComponent<IDamageable>(out var dmg))
+        {
+            dmg.TakeDamage(m_AttackDamage, transform.position);
+        }
+        
+        GameObject fxSlash = ResourceManager.Instance.InstantiatePrefab("FX/FX_Slash_Blue");
+        fxSlash.transform.position = laneObj.transform.position;
+    }
+
+    IEnumerator CoKnockBack()
+    {
+        m_IsKnockBack = true;
+        m_Rigidbody.AddForce(Vector3.back * m_JumpForce * 1.5f, ForceMode.Impulse);
+        yield return new WaitForSeconds(0.2f);
+
+        m_IsKnockBack = false;
+        yield break;
+    }
+
 }

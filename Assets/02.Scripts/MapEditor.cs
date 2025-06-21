@@ -19,6 +19,7 @@ public class MapEditor : EditorWindow
         public GameObject prefab;
         public ObjectType type = ObjectType.Coin;
         public float height = 0f;
+        public int laneNum;
     }
 
     public enum ObjectType { Coin, Monster }
@@ -466,6 +467,7 @@ public class MapEditor : EditorWindow
                     data.objects.Add(new ObjectSaveData
                     {
                         x = x,
+                        laneNum = x,
                         z = z,
                         prefabPath = prefabPath,
                         position = objTile.instance.transform.position,
@@ -549,7 +551,8 @@ public class MapEditor : EditorWindow
                     {
                         prefab = prefab,
                         type = type,
-                        height = obj.position.y
+                        height = obj.position.y,
+                        laneNum = obj.laneNum
                     });
                     index = objectPrefabs.Count - 1;
                 }
@@ -603,6 +606,7 @@ public class MapEditor : EditorWindow
         public string prefabPath;
         public Vector3 position;
         public string objectType;
+        public int laneNum;
     }
 
     [Serializable]

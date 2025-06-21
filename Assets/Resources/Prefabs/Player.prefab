@@ -1196,6 +1196,8 @@ MonoBehaviour:
   m_LaneDistance: 1
   m_LaneSwitchSpeed: 10
   m_JumpForce: 5
+  m_CurrentLane: 1
+  m_AttackDamage: 100
 --- !u!54 &927901815561002264
 Rigidbody:
   m_ObjectHideFlags: 0

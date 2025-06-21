@@ -4,10 +4,13 @@ using UnityEngine;
 /// 트레일을 따라 다가오는 골드 코인 스크립트
 /// </summary>
 /// 
-public class GoldCoin : MonoBehaviour
+public class GoldCoin : LaneObject
 {
     public float rotationSpeed = 180f; // 초당 회전 속도 (도 단위)
     public Transform m_CoinObject;
+
+    public override void Init() { }
+    public override void Die() { }
 
     void Update()
     {

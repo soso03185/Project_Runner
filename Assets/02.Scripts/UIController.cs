@@ -9,6 +9,4 @@ public class UIController : Singleton<UIController>
     {
         m_CoinText.text = $"COIN : {coin.ToString()}";
     }
-
-
 }

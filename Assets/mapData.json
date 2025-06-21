@@ -19213,7 +19213,8 @@
                 "y": 0.5,
                 "z": 8.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19224,7 +19225,20 @@
                 "y": 0.5,
                 "z": 10.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
+        },
+        {
+            "x": 0,
+            "z": 11,
+            "prefabPath": "Assets/Resources/Prefabs/Enemy_Tree.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 11.0
+            },
+            "objectType": "Monster",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19235,7 +19249,8 @@
                 "y": 0.5,
                 "z": 12.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19246,7 +19261,8 @@
                 "y": 0.5,
                 "z": 14.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19257,7 +19273,8 @@
                 "y": 0.5,
                 "z": 15.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19268,7 +19285,8 @@
                 "y": 0.5,
                 "z": 16.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19279,7 +19297,8 @@
                 "y": 0.5,
                 "z": 23.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19290,7 +19309,8 @@
                 "y": 0.5,
                 "z": 26.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19301,7 +19321,8 @@
                 "y": 0.5,
                 "z": 29.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19312,7 +19333,8 @@
                 "y": 0.5,
                 "z": 32.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19323,7 +19345,8 @@
                 "y": 0.5,
                 "z": 34.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19334,7 +19357,8 @@
                 "y": 0.5,
                 "z": 42.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19345,7 +19369,8 @@
                 "y": 0.5,
                 "z": 43.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19356,7 +19381,8 @@
                 "y": 0.5,
                 "z": 47.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19367,7 +19393,8 @@
                 "y": 0.5,
                 "z": 51.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19378,7 +19405,8 @@
                 "y": 0.5,
                 "z": 54.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19389,7 +19417,8 @@
                 "y": 0.5,
                 "z": 55.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19400,7 +19429,8 @@
                 "y": 0.5,
                 "z": 56.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19411,7 +19441,8 @@
                 "y": 0.5,
                 "z": 72.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19422,7 +19453,8 @@
                 "y": 0.5,
                 "z": 73.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19433,7 +19465,8 @@
                 "y": 0.5,
                 "z": 74.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19444,7 +19477,8 @@
                 "y": 0.5,
                 "z": 75.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19455,7 +19489,8 @@
                 "y": 0.5,
                 "z": 77.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19466,7 +19501,8 @@
                 "y": 0.5,
                 "z": 78.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19477,7 +19513,8 @@
                 "y": 0.5,
                 "z": 79.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19488,7 +19525,8 @@
                 "y": 0.5,
                 "z": 80.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19499,7 +19537,8 @@
                 "y": 0.5,
                 "z": 96.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19510,7 +19549,8 @@
                 "y": 0.5,
                 "z": 97.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19521,7 +19561,8 @@
                 "y": 0.5,
                 "z": 98.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19532,7 +19573,8 @@
                 "y": 0.5,
                 "z": 99.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19543,7 +19585,8 @@
                 "y": 0.5,
                 "z": 100.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19554,7 +19597,8 @@
                 "y": 0.5,
                 "z": 101.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19565,7 +19609,8 @@
                 "y": 0.5,
                 "z": 102.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19576,7 +19621,8 @@
                 "y": 0.5,
                 "z": 103.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19587,7 +19633,8 @@
                 "y": 0.5,
                 "z": 110.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19598,7 +19645,8 @@
                 "y": 0.5,
                 "z": 111.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19609,7 +19657,8 @@
                 "y": 0.5,
                 "z": 113.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19620,7 +19669,8 @@
                 "y": 0.5,
                 "z": 114.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19631,7 +19681,8 @@
                 "y": 0.5,
                 "z": 115.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19642,7 +19693,8 @@
                 "y": 0.5,
                 "z": 119.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19653,7 +19705,8 @@
                 "y": 0.5,
                 "z": 125.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19664,7 +19717,8 @@
                 "y": 0.5,
                 "z": 127.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19675,7 +19729,8 @@
                 "y": 0.5,
                 "z": 128.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19686,7 +19741,8 @@
                 "y": 0.5,
                 "z": 130.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19697,7 +19753,8 @@
                 "y": 0.5,
                 "z": 131.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19708,7 +19765,8 @@
                 "y": 0.5,
                 "z": 133.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19719,7 +19777,8 @@
                 "y": 0.5,
                 "z": 136.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19730,7 +19789,8 @@
                 "y": 0.5,
                 "z": 138.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19741,7 +19801,8 @@
                 "y": 0.5,
                 "z": 140.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19752,7 +19813,8 @@
                 "y": 0.5,
                 "z": 141.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19763,7 +19825,8 @@
                 "y": 0.5,
                 "z": 142.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19774,7 +19837,8 @@
                 "y": 0.5,
                 "z": 143.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19785,7 +19849,8 @@
                 "y": 0.5,
                 "z": 144.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19796,7 +19861,8 @@
                 "y": 0.5,
                 "z": 145.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19807,7 +19873,8 @@
                 "y": 0.5,
                 "z": 146.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19818,7 +19885,8 @@
                 "y": 0.5,
                 "z": 147.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19829,7 +19897,8 @@
                 "y": 0.5,
                 "z": 148.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19840,7 +19909,8 @@
                 "y": 0.5,
                 "z": 149.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19851,7 +19921,8 @@
                 "y": 0.5,
                 "z": 151.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19862,7 +19933,8 @@
                 "y": 0.5,
                 "z": 152.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19873,7 +19945,8 @@
                 "y": 0.5,
                 "z": 154.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19884,7 +19957,8 @@
                 "y": 0.5,
                 "z": 158.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19895,7 +19969,8 @@
                 "y": 0.5,
                 "z": 160.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19906,7 +19981,8 @@
                 "y": 0.5,
                 "z": 161.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19917,7 +19993,8 @@
                 "y": 0.5,
                 "z": 182.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19928,7 +20005,8 @@
                 "y": 0.5,
                 "z": 188.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19939,7 +20017,8 @@
                 "y": 0.5,
                 "z": 189.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19950,7 +20029,8 @@
                 "y": 0.5,
                 "z": 190.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19961,7 +20041,8 @@
                 "y": 0.5,
                 "z": 191.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19972,7 +20053,8 @@
                 "y": 0.5,
                 "z": 193.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19983,7 +20065,8 @@
                 "y": 0.5,
                 "z": 194.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -19994,7 +20077,8 @@
                 "y": 0.5,
                 "z": 196.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20005,7 +20089,8 @@
                 "y": 0.5,
                 "z": 197.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20016,7 +20101,8 @@
                 "y": 0.5,
                 "z": 199.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20027,7 +20113,8 @@
                 "y": 0.5,
                 "z": 200.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20038,7 +20125,8 @@
                 "y": 0.5,
                 "z": 207.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20049,7 +20137,8 @@
                 "y": 0.5,
                 "z": 208.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20060,7 +20149,8 @@
                 "y": 0.5,
                 "z": 218.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20071,7 +20161,8 @@
                 "y": 0.5,
                 "z": 219.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20082,7 +20173,8 @@
                 "y": 0.5,
                 "z": 221.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20093,7 +20185,8 @@
                 "y": 0.5,
                 "z": 222.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20104,7 +20197,8 @@
                 "y": 0.5,
                 "z": 224.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20115,7 +20209,8 @@
                 "y": 0.5,
                 "z": 234.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20126,7 +20221,8 @@
                 "y": 0.5,
                 "z": 235.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20137,7 +20233,8 @@
                 "y": 0.5,
                 "z": 236.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20148,7 +20245,8 @@
                 "y": 0.5,
                 "z": 246.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20159,7 +20257,8 @@
                 "y": 0.5,
                 "z": 249.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20170,7 +20269,8 @@
                 "y": 0.5,
                 "z": 259.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20181,7 +20281,8 @@
                 "y": 0.5,
                 "z": 260.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20192,7 +20293,8 @@
                 "y": 0.5,
                 "z": 262.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20203,7 +20305,8 @@
                 "y": 0.5,
                 "z": 263.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20214,7 +20317,8 @@
                 "y": 0.5,
                 "z": 266.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20225,7 +20329,8 @@
                 "y": 0.5,
                 "z": 276.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20236,7 +20341,8 @@
                 "y": 0.5,
                 "z": 277.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20247,7 +20353,8 @@
                 "y": 0.5,
                 "z": 279.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20258,7 +20365,8 @@
                 "y": 0.5,
                 "z": 281.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20269,7 +20377,8 @@
                 "y": 0.5,
                 "z": 282.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20280,7 +20389,8 @@
                 "y": 0.5,
                 "z": 283.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20291,7 +20401,8 @@
                 "y": 0.5,
                 "z": 284.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20302,7 +20413,8 @@
                 "y": 0.5,
                 "z": 285.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20313,7 +20425,8 @@
                 "y": 0.5,
                 "z": 286.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20324,7 +20437,8 @@
                 "y": 0.5,
                 "z": 287.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20335,7 +20449,8 @@
                 "y": 0.5,
                 "z": 288.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20346,7 +20461,8 @@
                 "y": 0.5,
                 "z": 289.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20357,7 +20473,8 @@
                 "y": 0.5,
                 "z": 290.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20368,7 +20485,8 @@
                 "y": 0.5,
                 "z": 291.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20379,7 +20497,8 @@
                 "y": 0.5,
                 "z": 292.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20390,7 +20509,8 @@
                 "y": 0.5,
                 "z": 294.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20401,7 +20521,8 @@
                 "y": 0.5,
                 "z": 295.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20412,7 +20533,8 @@
                 "y": 0.5,
                 "z": 296.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20423,7 +20545,8 @@
                 "y": 0.5,
                 "z": 297.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20434,7 +20557,8 @@
                 "y": 0.5,
                 "z": 298.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20445,7 +20569,8 @@
                 "y": 0.5,
                 "z": 299.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20456,7 +20581,8 @@
                 "y": 0.5,
                 "z": 300.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20467,7 +20593,8 @@
                 "y": 0.5,
                 "z": 301.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20478,7 +20605,8 @@
                 "y": 0.5,
                 "z": 302.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20489,7 +20617,8 @@
                 "y": 0.5,
                 "z": 303.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20500,7 +20629,8 @@
                 "y": 0.5,
                 "z": 305.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20511,7 +20641,8 @@
                 "y": 0.5,
                 "z": 306.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20522,7 +20653,8 @@
                 "y": 0.5,
                 "z": 307.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20533,7 +20665,8 @@
                 "y": 0.5,
                 "z": 308.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20544,7 +20677,8 @@
                 "y": 0.5,
                 "z": 309.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20555,7 +20689,8 @@
                 "y": 0.5,
                 "z": 313.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20566,7 +20701,8 @@
                 "y": 0.5,
                 "z": 372.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20577,7 +20713,8 @@
                 "y": 0.5,
                 "z": 373.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20588,7 +20725,8 @@
                 "y": 0.5,
                 "z": 384.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 0,
@@ -20599,7 +20737,8 @@
                 "y": 0.5,
                 "z": 385.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 0
         },
         {
             "x": 1,
@@ -20610,7 +20749,8 @@
                 "y": 0.5,
                 "z": 4.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20621,7 +20761,8 @@
                 "y": 0.5,
                 "z": 5.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20632,7 +20773,8 @@
                 "y": 0.5,
                 "z": 6.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20643,7 +20785,8 @@
                 "y": 0.0,
                 "z": 7.0
             },
-            "objectType": "Monster"
+            "objectType": "Monster",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20654,7 +20797,8 @@
                 "y": 0.5,
                 "z": 8.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20665,7 +20809,8 @@
                 "y": 0.5,
                 "z": 10.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20676,7 +20821,8 @@
                 "y": 0.5,
                 "z": 12.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20687,7 +20833,8 @@
                 "y": 0.5,
                 "z": 14.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20698,7 +20845,8 @@
                 "y": 0.5,
                 "z": 16.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20709,7 +20857,8 @@
                 "y": 0.5,
                 "z": 20.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20720,7 +20869,8 @@
                 "y": 0.5,
                 "z": 22.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20731,7 +20881,8 @@
                 "y": 0.5,
                 "z": 24.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20742,7 +20893,8 @@
                 "y": 0.5,
                 "z": 25.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20753,7 +20905,8 @@
                 "y": 0.5,
                 "z": 27.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20764,7 +20917,8 @@
                 "y": 0.5,
                 "z": 28.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20775,7 +20929,8 @@
                 "y": 0.5,
                 "z": 29.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20786,7 +20941,8 @@
                 "y": 0.5,
                 "z": 49.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20797,7 +20953,8 @@
                 "y": 0.5,
                 "z": 50.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20808,7 +20965,8 @@
                 "y": 0.5,
                 "z": 51.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20819,7 +20977,8 @@
                 "y": 0.5,
                 "z": 54.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20830,7 +20989,8 @@
                 "y": 0.5,
                 "z": 55.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20841,7 +21001,8 @@
                 "y": 0.5,
                 "z": 56.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20852,7 +21013,8 @@
                 "y": 0.5,
                 "z": 60.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20863,7 +21025,8 @@
                 "y": 0.5,
                 "z": 76.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20874,7 +21037,8 @@
                 "y": 0.5,
                 "z": 79.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20885,7 +21049,8 @@
                 "y": 0.5,
                 "z": 80.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20896,7 +21061,8 @@
                 "y": 0.5,
                 "z": 81.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20907,7 +21073,8 @@
                 "y": 0.5,
                 "z": 82.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20918,7 +21085,8 @@
                 "y": 0.5,
                 "z": 83.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20929,7 +21097,8 @@
                 "y": 0.5,
                 "z": 89.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20940,7 +21109,8 @@
                 "y": 0.5,
                 "z": 92.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20951,7 +21121,8 @@
                 "y": 0.5,
                 "z": 93.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20962,7 +21133,8 @@
                 "y": 0.5,
                 "z": 94.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20973,7 +21145,8 @@
                 "y": 0.5,
                 "z": 101.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20984,7 +21157,8 @@
                 "y": 0.5,
                 "z": 102.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -20995,7 +21169,8 @@
                 "y": 0.5,
                 "z": 106.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21006,7 +21181,8 @@
                 "y": 0.5,
                 "z": 107.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21017,7 +21193,8 @@
                 "y": 0.5,
                 "z": 109.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21028,7 +21205,8 @@
                 "y": 0.5,
                 "z": 110.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21039,7 +21217,8 @@
                 "y": 0.5,
                 "z": 111.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21050,7 +21229,8 @@
                 "y": 0.5,
                 "z": 112.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21061,7 +21241,8 @@
                 "y": 0.5,
                 "z": 113.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21072,7 +21253,8 @@
                 "y": 0.5,
                 "z": 115.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21083,7 +21265,8 @@
                 "y": 0.5,
                 "z": 118.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21094,7 +21277,8 @@
                 "y": 0.5,
                 "z": 120.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21105,7 +21289,8 @@
                 "y": 0.5,
                 "z": 122.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21116,7 +21301,8 @@
                 "y": 0.5,
                 "z": 123.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21127,7 +21313,8 @@
                 "y": 0.5,
                 "z": 124.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21138,7 +21325,8 @@
                 "y": 0.5,
                 "z": 126.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21149,7 +21337,8 @@
                 "y": 0.5,
                 "z": 127.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21160,7 +21349,8 @@
                 "y": 0.5,
                 "z": 128.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21171,7 +21361,8 @@
                 "y": 0.5,
                 "z": 129.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21182,7 +21373,8 @@
                 "y": 0.5,
                 "z": 130.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21193,7 +21385,8 @@
                 "y": 0.5,
                 "z": 133.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21204,7 +21397,8 @@
                 "y": 0.5,
                 "z": 134.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21215,7 +21409,8 @@
                 "y": 0.5,
                 "z": 136.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21226,7 +21421,8 @@
                 "y": 0.5,
                 "z": 137.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21237,7 +21433,8 @@
                 "y": 0.5,
                 "z": 138.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21248,7 +21445,8 @@
                 "y": 0.5,
                 "z": 139.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21259,7 +21457,8 @@
                 "y": 0.5,
                 "z": 140.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21270,7 +21469,8 @@
                 "y": 0.5,
                 "z": 141.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21281,7 +21481,8 @@
                 "y": 0.5,
                 "z": 142.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21292,7 +21493,8 @@
                 "y": 0.5,
                 "z": 143.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21303,7 +21505,8 @@
                 "y": 0.5,
                 "z": 144.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21314,7 +21517,8 @@
                 "y": 0.5,
                 "z": 145.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21325,7 +21529,8 @@
                 "y": 0.5,
                 "z": 146.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21336,7 +21541,8 @@
                 "y": 0.5,
                 "z": 148.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21347,7 +21553,8 @@
                 "y": 0.5,
                 "z": 149.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21358,7 +21565,8 @@
                 "y": 0.5,
                 "z": 151.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21369,7 +21577,8 @@
                 "y": 0.5,
                 "z": 153.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21380,7 +21589,8 @@
                 "y": 0.5,
                 "z": 155.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21391,7 +21601,8 @@
                 "y": 0.5,
                 "z": 156.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21402,7 +21613,8 @@
                 "y": 0.5,
                 "z": 158.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21413,7 +21625,8 @@
                 "y": 0.5,
                 "z": 160.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21424,7 +21637,8 @@
                 "y": 0.5,
                 "z": 161.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21435,7 +21649,8 @@
                 "y": 0.5,
                 "z": 165.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21446,7 +21661,8 @@
                 "y": 0.5,
                 "z": 166.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21457,7 +21673,8 @@
                 "y": 0.5,
                 "z": 167.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21468,7 +21685,8 @@
                 "y": 0.5,
                 "z": 183.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21479,7 +21697,8 @@
                 "y": 0.5,
                 "z": 184.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21490,7 +21709,8 @@
                 "y": 0.5,
                 "z": 186.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21501,7 +21721,8 @@
                 "y": 0.5,
                 "z": 187.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21512,7 +21733,8 @@
                 "y": 0.5,
                 "z": 188.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21523,7 +21745,8 @@
                 "y": 0.5,
                 "z": 189.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21534,7 +21757,8 @@
                 "y": 0.5,
                 "z": 190.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21545,7 +21769,8 @@
                 "y": 0.5,
                 "z": 192.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21556,7 +21781,8 @@
                 "y": 0.5,
                 "z": 193.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21567,7 +21793,8 @@
                 "y": 0.5,
                 "z": 194.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21578,7 +21805,8 @@
                 "y": 0.5,
                 "z": 195.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21589,7 +21817,8 @@
                 "y": 0.5,
                 "z": 196.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21600,7 +21829,8 @@
                 "y": 0.5,
                 "z": 198.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21611,7 +21841,8 @@
                 "y": 0.5,
                 "z": 199.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21622,7 +21853,8 @@
                 "y": 0.5,
                 "z": 202.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21633,7 +21865,8 @@
                 "y": 0.5,
                 "z": 203.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21644,7 +21877,8 @@
                 "y": 0.5,
                 "z": 204.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21655,7 +21889,8 @@
                 "y": 0.5,
                 "z": 205.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21666,7 +21901,8 @@
                 "y": 0.5,
                 "z": 206.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21677,7 +21913,8 @@
                 "y": 0.5,
                 "z": 207.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21688,7 +21925,8 @@
                 "y": 0.5,
                 "z": 208.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21699,7 +21937,8 @@
                 "y": 0.5,
                 "z": 217.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21710,7 +21949,8 @@
                 "y": 0.5,
                 "z": 225.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21721,7 +21961,8 @@
                 "y": 0.5,
                 "z": 233.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21732,7 +21973,8 @@
                 "y": 0.5,
                 "z": 250.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21743,7 +21985,8 @@
                 "y": 0.5,
                 "z": 252.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21754,7 +21997,8 @@
                 "y": 0.5,
                 "z": 253.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21765,7 +22009,8 @@
                 "y": 0.5,
                 "z": 254.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21776,7 +22021,8 @@
                 "y": 0.5,
                 "z": 256.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21787,7 +22033,8 @@
                 "y": 0.5,
                 "z": 257.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21798,7 +22045,8 @@
                 "y": 0.5,
                 "z": 259.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21809,7 +22057,8 @@
                 "y": 0.5,
                 "z": 260.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21820,7 +22069,8 @@
                 "y": 0.5,
                 "z": 261.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21831,7 +22081,8 @@
                 "y": 0.5,
                 "z": 262.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21842,7 +22093,8 @@
                 "y": 0.5,
                 "z": 263.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21853,7 +22105,8 @@
                 "y": 0.5,
                 "z": 265.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21864,7 +22117,8 @@
                 "y": 0.5,
                 "z": 266.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21875,7 +22129,8 @@
                 "y": 0.5,
                 "z": 268.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21886,7 +22141,8 @@
                 "y": 0.5,
                 "z": 269.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21897,7 +22153,8 @@
                 "y": 0.5,
                 "z": 276.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21908,7 +22165,8 @@
                 "y": 0.5,
                 "z": 277.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21919,7 +22177,8 @@
                 "y": 0.5,
                 "z": 279.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21930,7 +22189,8 @@
                 "y": 0.5,
                 "z": 280.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21941,7 +22201,8 @@
                 "y": 0.5,
                 "z": 281.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21952,7 +22213,8 @@
                 "y": 0.5,
                 "z": 288.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21963,7 +22225,8 @@
                 "y": 0.5,
                 "z": 292.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21974,7 +22237,8 @@
                 "y": 0.5,
                 "z": 293.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21985,7 +22249,8 @@
                 "y": 0.5,
                 "z": 295.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -21996,7 +22261,8 @@
                 "y": 0.5,
                 "z": 296.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22007,7 +22273,8 @@
                 "y": 0.5,
                 "z": 314.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22018,7 +22285,8 @@
                 "y": 0.5,
                 "z": 315.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22029,7 +22297,8 @@
                 "y": 0.5,
                 "z": 328.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22040,7 +22309,8 @@
                 "y": 0.5,
                 "z": 329.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22051,7 +22321,8 @@
                 "y": 0.5,
                 "z": 354.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22062,7 +22333,8 @@
                 "y": 0.5,
                 "z": 355.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22073,7 +22345,8 @@
                 "y": 0.5,
                 "z": 371.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22084,7 +22357,8 @@
                 "y": 0.5,
                 "z": 372.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22095,7 +22369,8 @@
                 "y": 0.5,
                 "z": 385.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 1,
@@ -22106,7 +22381,8 @@
                 "y": 0.5,
                 "z": 386.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 1
         },
         {
             "x": 2,
@@ -22117,7 +22393,8 @@
                 "y": 0.5,
                 "z": 1.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22128,7 +22405,8 @@
                 "y": 0.5,
                 "z": 2.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22139,7 +22417,8 @@
                 "y": 0.5,
                 "z": 3.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22150,7 +22429,8 @@
                 "y": 0.5,
                 "z": 4.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22161,7 +22441,8 @@
                 "y": 0.5,
                 "z": 6.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22172,7 +22453,8 @@
                 "y": 0.5,
                 "z": 7.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22183,7 +22465,20 @@
                 "y": 0.5,
                 "z": 8.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
+        },
+        {
+            "x": 2,
+            "z": 14,
+            "prefabPath": "Assets/Resources/Prefabs/Enemy_Tree.prefab",
+            "position": {
+                "x": 2.0,
+                "y": 0.0,
+                "z": 14.0
+            },
+            "objectType": "Monster",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22194,7 +22489,8 @@
                 "y": 0.5,
                 "z": 26.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22205,7 +22501,8 @@
                 "y": 0.5,
                 "z": 27.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22216,7 +22513,8 @@
                 "y": 0.5,
                 "z": 28.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22227,7 +22525,8 @@
                 "y": 0.5,
                 "z": 30.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22238,7 +22537,8 @@
                 "y": 0.5,
                 "z": 33.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22249,7 +22549,8 @@
                 "y": 0.5,
                 "z": 34.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22260,7 +22561,8 @@
                 "y": 0.5,
                 "z": 35.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22271,7 +22573,8 @@
                 "y": 0.5,
                 "z": 36.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22282,7 +22585,8 @@
                 "y": 0.5,
                 "z": 40.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22293,7 +22597,8 @@
                 "y": 0.5,
                 "z": 41.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22304,7 +22609,8 @@
                 "y": 0.5,
                 "z": 42.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22315,7 +22621,8 @@
                 "y": 0.5,
                 "z": 49.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22326,7 +22633,8 @@
                 "y": 0.5,
                 "z": 50.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22337,7 +22645,8 @@
                 "y": 0.5,
                 "z": 51.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22348,7 +22657,8 @@
                 "y": 0.5,
                 "z": 53.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22359,7 +22669,8 @@
                 "y": 0.5,
                 "z": 54.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22370,7 +22681,8 @@
                 "y": 0.5,
                 "z": 55.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22381,7 +22693,8 @@
                 "y": 0.5,
                 "z": 56.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22392,7 +22705,8 @@
                 "y": 0.5,
                 "z": 57.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22403,7 +22717,8 @@
                 "y": 0.5,
                 "z": 58.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22414,7 +22729,8 @@
                 "y": 0.5,
                 "z": 60.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22425,7 +22741,8 @@
                 "y": 0.5,
                 "z": 68.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22436,7 +22753,8 @@
                 "y": 0.5,
                 "z": 69.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22447,7 +22765,8 @@
                 "y": 0.5,
                 "z": 70.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22458,7 +22777,8 @@
                 "y": 0.5,
                 "z": 71.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22469,7 +22789,8 @@
                 "y": 0.5,
                 "z": 72.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22480,7 +22801,8 @@
                 "y": 0.5,
                 "z": 74.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22491,7 +22813,8 @@
                 "y": 0.5,
                 "z": 75.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22502,7 +22825,8 @@
                 "y": 0.5,
                 "z": 76.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22513,7 +22837,8 @@
                 "y": 0.5,
                 "z": 77.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22524,7 +22849,8 @@
                 "y": 0.5,
                 "z": 83.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22535,7 +22861,8 @@
                 "y": 0.5,
                 "z": 84.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22546,7 +22873,8 @@
                 "y": 0.5,
                 "z": 95.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22557,7 +22885,8 @@
                 "y": 0.5,
                 "z": 96.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22568,7 +22897,8 @@
                 "y": 0.5,
                 "z": 97.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22579,7 +22909,8 @@
                 "y": 0.5,
                 "z": 98.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22590,7 +22921,8 @@
                 "y": 0.5,
                 "z": 115.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22601,7 +22933,8 @@
                 "y": 0.5,
                 "z": 117.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22612,7 +22945,8 @@
                 "y": 0.5,
                 "z": 118.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22623,7 +22957,8 @@
                 "y": 0.5,
                 "z": 120.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22634,7 +22969,8 @@
                 "y": 0.5,
                 "z": 122.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22645,7 +22981,8 @@
                 "y": 0.5,
                 "z": 123.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22656,7 +22993,8 @@
                 "y": 0.5,
                 "z": 124.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22667,7 +23005,8 @@
                 "y": 0.5,
                 "z": 125.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22678,7 +23017,8 @@
                 "y": 0.5,
                 "z": 128.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22689,7 +23029,8 @@
                 "y": 0.5,
                 "z": 129.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22700,7 +23041,8 @@
                 "y": 0.5,
                 "z": 131.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22711,7 +23053,8 @@
                 "y": 0.5,
                 "z": 132.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22722,7 +23065,8 @@
                 "y": 0.5,
                 "z": 134.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22733,7 +23077,8 @@
                 "y": 0.5,
                 "z": 135.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22744,7 +23089,8 @@
                 "y": 0.5,
                 "z": 137.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22755,7 +23101,8 @@
                 "y": 0.5,
                 "z": 139.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22766,7 +23113,8 @@
                 "y": 0.5,
                 "z": 141.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22777,7 +23125,8 @@
                 "y": 0.5,
                 "z": 142.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22788,7 +23137,8 @@
                 "y": 0.5,
                 "z": 144.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22799,7 +23149,8 @@
                 "y": 0.5,
                 "z": 145.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22810,7 +23161,8 @@
                 "y": 0.5,
                 "z": 146.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22821,7 +23173,8 @@
                 "y": 0.5,
                 "z": 147.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22832,7 +23185,8 @@
                 "y": 0.5,
                 "z": 148.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22843,7 +23197,8 @@
                 "y": 0.5,
                 "z": 150.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22854,7 +23209,8 @@
                 "y": 0.5,
                 "z": 152.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22865,7 +23221,8 @@
                 "y": 0.5,
                 "z": 153.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22876,7 +23233,8 @@
                 "y": 0.5,
                 "z": 154.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22887,7 +23245,8 @@
                 "y": 0.5,
                 "z": 155.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22898,7 +23257,8 @@
                 "y": 0.5,
                 "z": 156.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22909,7 +23269,8 @@
                 "y": 0.5,
                 "z": 157.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22920,7 +23281,8 @@
                 "y": 0.5,
                 "z": 158.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22931,7 +23293,8 @@
                 "y": 0.5,
                 "z": 159.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22942,7 +23305,8 @@
                 "y": 0.5,
                 "z": 161.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22953,7 +23317,8 @@
                 "y": 0.5,
                 "z": 165.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22964,7 +23329,8 @@
                 "y": 0.5,
                 "z": 167.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22975,7 +23341,8 @@
                 "y": 0.5,
                 "z": 184.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22986,7 +23353,8 @@
                 "y": 0.5,
                 "z": 185.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -22997,7 +23365,8 @@
                 "y": 0.5,
                 "z": 186.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23008,7 +23377,8 @@
                 "y": 0.5,
                 "z": 190.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23019,7 +23389,8 @@
                 "y": 0.5,
                 "z": 192.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23030,7 +23401,8 @@
                 "y": 0.5,
                 "z": 193.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23041,7 +23413,8 @@
                 "y": 0.5,
                 "z": 195.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23052,7 +23425,8 @@
                 "y": 0.5,
                 "z": 198.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23063,7 +23437,8 @@
                 "y": 0.5,
                 "z": 199.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23074,7 +23449,8 @@
                 "y": 0.5,
                 "z": 200.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23085,7 +23461,8 @@
                 "y": 0.5,
                 "z": 201.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23096,7 +23473,8 @@
                 "y": 0.5,
                 "z": 202.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23107,7 +23485,8 @@
                 "y": 0.5,
                 "z": 206.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23118,7 +23497,8 @@
                 "y": 0.5,
                 "z": 208.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23129,7 +23509,8 @@
                 "y": 0.5,
                 "z": 209.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23140,7 +23521,8 @@
                 "y": 0.5,
                 "z": 210.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23151,7 +23533,8 @@
                 "y": 0.5,
                 "z": 217.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23162,7 +23545,8 @@
                 "y": 0.5,
                 "z": 225.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23173,7 +23557,8 @@
                 "y": 0.5,
                 "z": 226.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23184,7 +23569,8 @@
                 "y": 0.5,
                 "z": 233.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23195,7 +23581,8 @@
                 "y": 0.5,
                 "z": 250.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23206,7 +23593,8 @@
                 "y": 0.5,
                 "z": 251.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23217,7 +23605,8 @@
                 "y": 0.5,
                 "z": 252.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23228,7 +23617,8 @@
                 "y": 0.5,
                 "z": 254.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23239,7 +23629,8 @@
                 "y": 0.5,
                 "z": 255.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23250,7 +23641,8 @@
                 "y": 0.5,
                 "z": 258.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23261,7 +23653,8 @@
                 "y": 0.5,
                 "z": 259.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23272,7 +23665,8 @@
                 "y": 0.5,
                 "z": 261.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23283,7 +23677,8 @@
                 "y": 0.5,
                 "z": 262.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23294,7 +23689,8 @@
                 "y": 0.5,
                 "z": 263.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23305,7 +23701,8 @@
                 "y": 0.5,
                 "z": 264.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23316,7 +23713,8 @@
                 "y": 0.5,
                 "z": 265.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23327,7 +23725,8 @@
                 "y": 0.5,
                 "z": 267.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23338,7 +23737,8 @@
                 "y": 0.5,
                 "z": 268.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23349,7 +23749,8 @@
                 "y": 0.5,
                 "z": 269.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23360,7 +23761,8 @@
                 "y": 0.5,
                 "z": 270.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23371,7 +23773,8 @@
                 "y": 0.5,
                 "z": 271.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23382,7 +23785,8 @@
                 "y": 0.5,
                 "z": 274.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23393,7 +23797,8 @@
                 "y": 0.5,
                 "z": 275.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23404,7 +23809,8 @@
                 "y": 0.5,
                 "z": 276.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23415,7 +23821,8 @@
                 "y": 0.5,
                 "z": 277.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23426,7 +23833,8 @@
                 "y": 0.5,
                 "z": 278.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23437,7 +23845,8 @@
                 "y": 0.5,
                 "z": 316.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23448,7 +23857,8 @@
                 "y": 0.5,
                 "z": 317.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23459,7 +23869,8 @@
                 "y": 0.5,
                 "z": 319.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23470,7 +23881,8 @@
                 "y": 0.5,
                 "z": 328.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23481,7 +23893,8 @@
                 "y": 0.5,
                 "z": 355.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23492,7 +23905,8 @@
                 "y": 0.5,
                 "z": 356.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23503,7 +23917,8 @@
                 "y": 0.5,
                 "z": 358.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23514,7 +23929,8 @@
                 "y": 0.5,
                 "z": 371.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23525,7 +23941,8 @@
                 "y": 0.5,
                 "z": 386.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         },
         {
             "x": 2,
@@ -23536,7 +23953,8 @@
                 "y": 0.5,
                 "z": 387.0
             },
-            "objectType": "Coin"
+            "objectType": "Coin",
+            "laneNum": 2
         }
     ]
 }

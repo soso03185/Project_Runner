@@ -25,7 +25,7 @@ public class MapGenerator : Singleton<MapGenerator>
         m_MapLoader.Init(); // Data Load
     }
 
-    private void Start()
+    public void Init()
     {
         m_stageData = m_MapLoader.m_StageDataList;
         StageCreate(1);
@@ -53,9 +53,13 @@ public class MapGenerator : Singleton<MapGenerator>
 
         foreach (var obj in m_stageData[stage].objects) // "Object"
         {
-            GameObject go = ResourceManager.Instance.InstantiatePrefab(obj.PrefabName);
-            go.transform.position = obj.position;
-            go.transform.parent = objParent;
+            Transform tr = ResourceManager.Instance.InstantiatePrefab(obj.PrefabName).transform;
+            LaneObject lane = tr.GetComponent<LaneObject>();
+
+            lane.Init();
+            lane.m_CurrentLane = obj.laneNum;
+            tr.position = obj.position;
+            tr.parent = objParent;
         }
     }
 }
