@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7009851081913255722}
   m_Layer: 0
-  m_Name: uiPosition
+  m_Name: damageFontAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 1476655050131220115}
   - component: {fileID: 8406612800437386102}
   - component: {fileID: 2541908036389338657}
+  - component: {fileID: 1726214977340011879}
   - component: {fileID: 2229489465601879480}
   m_Layer: 0
   m_Name: Enemy_Tree
@@ -133,8 +134,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CurrentLane: 1
-  m_hp: 0
-  m_uiPos: {fileID: 7009851081913255722}
+--- !u!114 &1726214977340011879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7430966040972171919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79111c62fe102c54d983e39371911559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageFontAnchor: {fileID: 7009851081913255722}
 --- !u!65 &2229489465601879480
 BoxCollider:
   m_ObjectHideFlags: 0

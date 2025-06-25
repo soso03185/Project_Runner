@@ -21,9 +21,13 @@ public class Define
 #endif
     }
 
-    enum DamageType
+    public enum EquipmentSlotType
     {
-
+        Head,
+        Body,
+        Weapon,
+        Shoes,
+        Pet,
     }
 
     private static string ExtractPrefabName(string path)
@@ -38,7 +42,6 @@ public class Define
 
         return path;
     }
-
 
     [System.Serializable]
     public class MapData
@@ -67,39 +70,5 @@ public class Define
         public int laneNum;
 
         public string PrefabName => ExtractPrefabName(prefabPath);
-    }
-
-    [System.Serializable]
-    public class Vector3Ref
-    {
-        public float x;
-        public float y;
-        public float z;
-
-        public Vector3Ref(Vector3 v)
-        {
-            x = v.x;
-            y = v.y;
-            z = v.z;
-        }
-
-        public Vector3 ToVector3()
-        {
-            return new Vector3(x, y, z);
-        }
-
-        public void Set(Vector3 v)
-        {
-            x = v.x;
-            y = v.y;
-            z = v.z;
-        }
-
-        public void CopyFrom(Vector3Ref other)
-        {
-            x = other.x;
-            y = other.y;
-            z = other.z;
-        }
     }
 }

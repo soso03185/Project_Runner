@@ -117,8 +117,8 @@ MonoBehaviour:
   m_enableVertexGradient: 1
   m_colorMode: 2
   m_fontColorGradient:
-    topLeft: {r: 1, g: 0, b: 0, a: 1}
-    topRight: {r: 1, g: 0, b: 0, a: 1}
+    topLeft: {r: 0.993973, g: 1, b: 0, a: 1}
+    topRight: {r: 0.993973, g: 1, b: 0, a: 1}
     bottomLeft: {r: 1, g: 0.4520548, b: 0, a: 1}
     bottomRight: {r: 1, g: 0.4520548, b: 0, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
@@ -174,7 +174,7 @@ MonoBehaviour:
   _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_renderer: {fileID: 5842907335658606124}
   m_maskType: 0
 --- !u!114 &1697443009486548575

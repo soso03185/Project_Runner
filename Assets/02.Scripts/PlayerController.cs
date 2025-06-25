@@ -26,33 +26,19 @@ public class PlayerController : MonoBehaviour, IDamageable
     bool m_IsGrounded = true;
     bool m_IsKnockBack = false;
     Vector3 m_TargetPos;
+
+    EquipmentController equipmentController;
     Rigidbody m_Rigidbody;
+
+    void Awake()
+    {
+        equipmentController = GetComponent<EquipmentController>();
+        m_Rigidbody = GetComponent<Rigidbody>();
+    }
 
     void Start()
     {
-        m_Rigidbody = GetComponent<Rigidbody>();
         m_TargetPos = transform.position;
-    }
-
-    void Update()
-    {
-        // 입력 처리
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && m_CurrentLane > 0)
-        {
-            m_CurrentLane--;
-        }
-        else if (Input.GetKeyDown(KeyCode.RightArrow) && m_CurrentLane < 2)
-        {
-            m_CurrentLane++;
-        }
-        else if (Input.GetKeyDown(KeyCode.Space))
-        {
-            m_Rigidbody.AddForce(Vector3.up * m_JumpForce, ForceMode.Impulse);
-        }
-
-        // 목표 위치 계산 (X 위치만 갱신)
-        float targetX = m_CurrentLane * m_LaneDistance;
-        m_TargetPos = new Vector3(targetX, transform.position.y, transform.position.z);
     }
 
     private void FixedUpdate()
@@ -81,12 +67,33 @@ public class PlayerController : MonoBehaviour, IDamageable
         m_Rigidbody.MovePosition(newPosition);
     }
 
+    void Update()
+    {
+        // 입력 처리
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && m_CurrentLane > 0)
+        {
+            m_CurrentLane--;
+        }
+        else if (Input.GetKeyDown(KeyCode.RightArrow) && m_CurrentLane < 2)
+        {
+            m_CurrentLane++;
+        }
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            m_Rigidbody.AddForce(Vector3.up * m_JumpForce, ForceMode.Impulse);
+        }
+
+        // 목표 위치 계산 (X 위치만 갱신)
+        float targetX = m_CurrentLane * m_LaneDistance;
+        m_TargetPos = new Vector3(targetX, transform.position.y, transform.position.z);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Coin"))
         {
             UIController.Instance.GetCoin(++DataManager.m_GameCoin);
-            Destroy(other.gameObject);
+            other.gameObject.GetComponent<GoldCoin>().Die();
         }
     }
 
@@ -106,18 +113,21 @@ public class PlayerController : MonoBehaviour, IDamageable
         }
     }
 
+    public void EquipItem(EquipItemData newItem)
+    {
+        equipmentController.Equip(newItem);
+    }
+
     public void TakeDamage(float damage, Vector3 attackPos)
     {
-
     }
 
     void Attack(LaneObject laneObj)
     {
-        if(laneObj.TryGetComponent<IDamageable>(out var dmg))
+        if (laneObj.TryGetComponent<IDamageable>(out var dmg))
         {
             dmg.TakeDamage(m_AttackDamage, transform.position);
         }
-        
         GameObject fxSlash = ResourceManager.Instance.InstantiatePrefab("FX/FX_Slash_Blue");
         fxSlash.transform.position = laneObj.transform.position;
     }
@@ -127,9 +137,7 @@ public class PlayerController : MonoBehaviour, IDamageable
         m_IsKnockBack = true;
         m_Rigidbody.AddForce(Vector3.back * m_JumpForce * 1.5f, ForceMode.Impulse);
         yield return new WaitForSeconds(0.2f);
-
         m_IsKnockBack = false;
         yield break;
     }
-
 }

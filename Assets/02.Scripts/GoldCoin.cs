@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 /// <summary>
@@ -10,7 +11,15 @@ public class GoldCoin : LaneObject
     public Transform m_CoinObject;
 
     public override void Init() { }
-    public override void Die() { }
+
+    public override void Die() 
+    {
+        // Coin Effect »ý¼º
+        GameObject fxCoin = ResourceManager.Instance.InstantiatePrefab("FX/FX_Coin");
+        fxCoin.transform.position = transform.position;
+
+        ResourceManager.Instance.Destroy(gameObject);
+    }
 
     void Update()
     {
