@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.XR;
 using static Define;
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     bool m_IsKnockBack = false;
     Vector3 m_TargetPos;
 
+    Define.State m_State = Define.State.Idle;
     EquipmentController equipmentController;
     Rigidbody m_Rigidbody;
 
@@ -69,7 +71,35 @@ public class PlayerController : MonoBehaviour, IDamageable
 
     void Update()
     {
-        // 입력 처리
+        HandleInput();
+        UpdateTargetPosition();
+        UpdateState();
+    }
+
+    private void UpdateState()
+    {
+        switch (m_State)
+        {
+            case Define.State.Die:
+                UpdateDie();
+                break;
+            case Define.State.Idle:
+                UpdateIdle();
+                break;
+            case Define.State.Moving:
+                UpdateMoving();
+                break;
+            case Define.State.Jump:
+                UpdateJump();
+                break;
+            case Define.State.Attack:
+                UpdateAttack();
+                break;
+        }
+    }
+
+    private void HandleInput()
+    {
         if (Input.GetKeyDown(KeyCode.LeftArrow) && m_CurrentLane > 0)
         {
             m_CurrentLane--;
@@ -81,11 +111,55 @@ public class PlayerController : MonoBehaviour, IDamageable
         else if (Input.GetKeyDown(KeyCode.Space))
         {
             m_Rigidbody.AddForce(Vector3.up * m_JumpForce, ForceMode.Impulse);
+            m_State = Define.State.Jump;
         }
+    }
 
+    private void UpdateTargetPosition()
+    {
         // 목표 위치 계산 (X 위치만 갱신)
         float targetX = m_CurrentLane * m_LaneDistance;
         m_TargetPos = new Vector3(targetX, transform.position.y, transform.position.z);
+    }
+
+    public void UpdateDie()
+    {
+
+    }
+    public void UpdateIdle()
+    {
+
+    }
+    public void UpdateMoving()
+    {
+
+    }
+    public void UpdateJump()
+    {
+
+    }
+    public void UpdateAttack()
+    {
+
+    }
+
+    public void EquipItem(EquipItemData newItem)
+    {
+        equipmentController.Equip(newItem);
+    }
+
+    public void TakeDamage(float damage, Vector3 attackPos)
+    {
+    }
+
+    void Attack(LaneObject laneObj)
+    {
+        if (laneObj.TryGetComponent<IDamageable>(out var dmg))
+        {
+            dmg.TakeDamage(m_AttackDamage, transform.position);
+        }
+        GameObject fxSlash = ResourceManager.Instance.InstantiatePrefab("FX/FX_Slash_Blue");
+        fxSlash.transform.position = laneObj.transform.position;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -111,25 +185,6 @@ public class PlayerController : MonoBehaviour, IDamageable
                 }
             }
         }
-    }
-
-    public void EquipItem(EquipItemData newItem)
-    {
-        equipmentController.Equip(newItem);
-    }
-
-    public void TakeDamage(float damage, Vector3 attackPos)
-    {
-    }
-
-    void Attack(LaneObject laneObj)
-    {
-        if (laneObj.TryGetComponent<IDamageable>(out var dmg))
-        {
-            dmg.TakeDamage(m_AttackDamage, transform.position);
-        }
-        GameObject fxSlash = ResourceManager.Instance.InstantiatePrefab("FX/FX_Slash_Blue");
-        fxSlash.transform.position = laneObj.transform.position;
     }
 
     IEnumerator CoKnockBack()

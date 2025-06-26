@@ -30,6 +30,16 @@ public class Define
         Pet,
     }
 
+    public enum State
+    {
+        Die,
+        Idle,
+        Moving,
+        Jump,
+        Attack
+    }
+
+
     private static string ExtractPrefabName(string path)
     {
         if (string.IsNullOrEmpty(path)) return string.Empty;
