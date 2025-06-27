@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 02bfb1c6d6aeb3b42b8701e13968d39d
+guid: 76943ca36cd526c4a8a1c4352842f876
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VTP
-    second: {fileID: 2100000, guid: 4dfafe78863b244488e0a6a31c67a443, type: 2}
+    second: {fileID: 2100000, guid: 25aba9bb45a3f534fa9e2b9d7c48e9e6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
