@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System;
 
+#if UNITY_EDITOR
 public class MapEditor : EditorWindow
 {
     [Serializable]
@@ -618,3 +619,4 @@ public class MapEditor : EditorWindow
         public List<ObjectSaveData> objects = new();
     }
 }
+#endif
