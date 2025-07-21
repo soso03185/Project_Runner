@@ -43,7 +43,7 @@ public class GameScene : Singleton<GameScene>
         // uiCanvas.worldCamera = mainCam;
 
         // Map //
-        MapGenerator.Instance.Init();
+        // MapGenerator.Instance.Init();
     }
 
     void StartLobbyScene()
