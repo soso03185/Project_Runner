@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     float m_ForwardSpeed = 5f;             // 전진 속도
     float m_LaneSwitchSpeed = 10f;         // 좌우 전환 속도
     float m_JumpForce = 7f;                // 점프 힘
-    int m_CurrentLane = 1;                 // 0 = 왼쪽, 1 = 중간, 2 = 오른쪽
+    int m_CurrentLane = 0;                 // 0 = 왼쪽, 1 = 중간, 2 = 오른쪽
     float m_AttackDamage = 99;
 
     [Tooltip("낙하 속도를 나타냅니다.")]
@@ -107,11 +107,11 @@ public class PlayerController : MonoBehaviour, IDamageable
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && m_CurrentLane > 0)
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && m_CurrentLane > -1)
         {
             m_CurrentLane--;
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow) && m_CurrentLane < 2)
+        else if (Input.GetKeyDown(KeyCode.RightArrow) && m_CurrentLane < 1)
         {
             m_CurrentLane++;
         }
