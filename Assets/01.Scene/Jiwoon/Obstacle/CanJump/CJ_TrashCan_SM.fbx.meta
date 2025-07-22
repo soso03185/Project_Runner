@@ -3,7 +3,12 @@ guid: 2c42b2e5bff04c0429fa953555aeb0e6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VTP
+    second: {fileID: 2100000, guid: a7df2befa1301644e95bf72fe6d30f26, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

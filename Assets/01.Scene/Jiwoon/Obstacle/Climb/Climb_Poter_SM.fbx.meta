@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VTP
-    second: {fileID: 2100000, guid: 25aba9bb45a3f534fa9e2b9d7c48e9e6, type: 2}
+    second: {fileID: 2100000, guid: a7df2befa1301644e95bf72fe6d30f26, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
