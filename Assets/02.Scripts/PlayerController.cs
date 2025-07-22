@@ -14,15 +14,18 @@ using static UnityEngine.EventSystems.EventTrigger;
 /// 
 public class PlayerController : MonoBehaviour, IDamageable
 {
-    [SerializeField] private float m_FallMultiplier = 3f;
-    [SerializeField] private float m_LowJumpMultiplier = 5f;
-
-    float m_ForwardSpeed = 5f;          // 전진 속도
-    float m_LaneDistance = 1.0f;        // 레인 간 거리
-    float m_LaneSwitchSpeed = 10f;      // 좌우 전환 속도
-    float m_JumpForce = 7f;             // 점프 힘
-    int m_CurrentLane = 1;              // 0 = 왼쪽, 1 = 중간, 2 = 오른쪽
+    [Tooltip("좌우 이동 거리를 나타냅니다.")]
+    public float m_LaneDistance = 1.0f;    // 레인 간 거리
+    float m_ForwardSpeed = 5f;             // 전진 속도
+    float m_LaneSwitchSpeed = 10f;         // 좌우 전환 속도
+    float m_JumpForce = 7f;                // 점프 힘
+    int m_CurrentLane = 1;                 // 0 = 왼쪽, 1 = 중간, 2 = 오른쪽
     float m_AttackDamage = 99;
+
+    [Tooltip("낙하 속도를 나타냅니다.")]
+    [SerializeField] private float m_FallMultiplier = 3f;
+    [Tooltip("")]
+    [SerializeField] private float m_LowJumpMultiplier = 5f;
 
     bool m_IsGrounded = true;
     bool m_IsKnockBack = false;
@@ -40,6 +43,10 @@ public class PlayerController : MonoBehaviour, IDamageable
 
     void Start()
     {
+        // 시작 시 lane에 맞는 위치로 소환
+        transform.position = new Vector3(m_CurrentLane * m_LaneDistance, transform.position.y, transform.position.z);
+
+        // 
         m_TargetPos = transform.position;
     }
 
