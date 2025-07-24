@@ -10227,7 +10227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8abadeb6d148c3441b1b79379fb6bea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LaneDistance: 1
+  m_LaneDistance: 1.4
   m_FallMultiplier: 2.5
   m_LowJumpMultiplier: 5
 --- !u!54 &3015737588736062281
