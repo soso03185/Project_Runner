@@ -10,7 +10,7 @@ public class GameScene : Singleton<GameScene>
     public PlayerController m_Player;
     Camera mainCam;
 
-    void Start()
+    void Awake() // Start로 고칠 예정 (맵의 구성 오브젝트에서 start와 순서가 꼬여서 임시방편) //
     {
         Init();
         StartGameScene();
@@ -36,7 +36,7 @@ public class GameScene : Singleton<GameScene>
     void StartGameScene()
     {
         // Managers //
-        ResourceManager.Instance.InstantiatePrefab("Managers/@MapGenerator");
+        // ResourceManager.Instance.InstantiatePrefab("Managers/@MapGenerator");
 
         // UI //
         Canvas uiCanvas = ResourceManager.Instance.InstantiatePrefab("UI/UI_GameScene").GetComponent<Canvas>();

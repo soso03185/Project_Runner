@@ -14,26 +14,39 @@ using static UnityEngine.EventSystems.EventTrigger;
 /// 
 public class PlayerController : MonoBehaviour, IDamageable
 {
-    [Tooltip("좌우 이동 거리를 나타냅니다.")]
-    public float m_LaneDistance = 1.0f;    // 레인 간 거리
-    float m_ForwardSpeed = 5f;             // 전진 속도
-    float m_LaneSwitchSpeed = 10f;         // 좌우 전환 속도
-    float m_JumpForce = 7f;                // 점프 힘
-    int m_CurrentLane = 0;                 // 0 = 왼쪽, 1 = 중간, 2 = 오른쪽
+    [Tooltip("좌우 이동 거리")]  // 레인 간 거리
+    public float m_LaneDistance = 1.0f;
+
+    [Tooltip("전진 속도")]
+    float m_ForwardSpeed = 5f;
+
+    [Tooltip("좌우 전환 속도")]
+    float m_LaneSwitchSpeed = 10f;
+
+    [Tooltip("점프 힘")]
+    float m_JumpForce = 7f;
+
+    [Tooltip("공격력")]
     float m_AttackDamage = 99;
 
-    [Tooltip("낙하 속도를 나타냅니다.")]
+    [Tooltip("-1 왼쪽, 0 중간, 1 오른쪽")]
+    public int m_CurLaneIndex => m_curLaneIndex; // 외부 접근
+    private int m_curLaneIndex = 0;
+
+
+    [Tooltip("낙하 속도")]
     [SerializeField] private float m_FallMultiplier = 3f;
     [Tooltip("")]
     [SerializeField] private float m_LowJumpMultiplier = 5f;
 
+    public Vector3 m_TargetPos;
     bool m_IsGrounded = true;
     bool m_IsKnockBack = false;
-    Vector3 m_TargetPos;
 
     Define.State m_State = Define.State.Idle;
     EquipmentController equipmentController;
     Rigidbody m_Rigidbody;
+
 
     void Awake()
     {
@@ -44,12 +57,10 @@ public class PlayerController : MonoBehaviour, IDamageable
     void Start()
     {
         // 시작 시 lane에 맞는 위치로 소환
-        transform.position = new Vector3(m_CurrentLane * m_LaneDistance, transform.position.y, transform.position.z);
-
-        // 
+        transform.position = new Vector3(m_curLaneIndex * m_LaneDistance, transform.position.y, transform.position.z);
         m_TargetPos = transform.position;
     }
-
+    
     private void FixedUpdate()
     {
         // 점프 중
@@ -70,9 +81,9 @@ public class PlayerController : MonoBehaviour, IDamageable
         float newX = Mathf.Lerp(transform.position.x, m_TargetPos.x, m_LaneSwitchSpeed * Time.fixedDeltaTime);
 
         // 전진 거리 계산
-        float newZ = transform.position.z + m_ForwardSpeed * Time.fixedDeltaTime;
+         float newZ = transform.position.z + m_ForwardSpeed * Time.fixedDeltaTime;
+         Vector3 newPosition = new Vector3(newX, transform.position.y, newZ);
 
-        Vector3 newPosition = new Vector3(newX, transform.position.y, newZ);
         m_Rigidbody.MovePosition(newPosition);
     }
 
@@ -107,13 +118,13 @@ public class PlayerController : MonoBehaviour, IDamageable
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && m_CurrentLane > -1)
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && m_curLaneIndex > -1)
         {
-            m_CurrentLane--;
+            m_curLaneIndex--;
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow) && m_CurrentLane < 1)
+        else if (Input.GetKeyDown(KeyCode.RightArrow) && m_curLaneIndex < 1)
         {
-            m_CurrentLane++;
+            m_curLaneIndex++;
         }
         else if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -125,9 +136,10 @@ public class PlayerController : MonoBehaviour, IDamageable
     private void UpdateTargetPosition()
     {
         // 목표 위치 계산 (X 위치만 갱신)
-        float targetX = m_CurrentLane * m_LaneDistance;
+        float targetX = m_curLaneIndex * m_LaneDistance;
         m_TargetPos = new Vector3(targetX, transform.position.y, transform.position.z);
     }
+
 
     public void UpdateDie()
     {
@@ -165,15 +177,18 @@ public class PlayerController : MonoBehaviour, IDamageable
         {
             dmg.TakeDamage(m_AttackDamage, transform.position);
         }
-        GameObject fxSlash = ResourceManager.Instance.InstantiatePrefab("FX/FX_Slash_Blue");
-        fxSlash.transform.position = laneObj.transform.position;
+        GameObject fxSlash = ResourceManager.Instance.InstantiatePrefab("FX/FX_Slash_Blue");        
+        Vector3 pos = laneObj.transform.position;
+        pos.y += 0.7f; // 이펙트 소환 위치 보정
+        pos.z -= 0.7f; // 이펙트 소환 위치 보정
+        fxSlash.transform.position = pos;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Coin"))
         {
-            UIController.Instance.GetCoin(++DataManager.m_GameCoin);
+            UIDataStats.Coin.Value++; // 코인 추가, UI는 자동 갱신됨
             other.gameObject.GetComponent<GoldCoin>().Die();
         }
     }
@@ -183,7 +198,7 @@ public class PlayerController : MonoBehaviour, IDamageable
         if (other.gameObject.CompareTag("Enemy"))
         {
             LaneObject laneObj = other.gameObject.GetComponent<LaneObject>();
-            if (laneObj.m_CurrentLane == m_CurrentLane)
+          //  if (laneObj.m_CurrentLane == m_curLaneIndex)
             {
                 if (m_IsKnockBack == false)
                 {

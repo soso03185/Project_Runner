@@ -14,7 +14,7 @@ public class EquipmentController : MonoBehaviour
     {
         public EquipmentSlotType slotType;          // 어떤 부위인지
         public Transform attachPoint;               // 장비가 붙을 위치 (빈 오브젝트)
-        [HideInInspector] public GameObject currentObject; // 현재 장착된 장비
+        public GameObject currentObject;            // 현재 장착된 장비
     }
 
     [SerializeField] private List<Slot> slots;
@@ -22,14 +22,17 @@ public class EquipmentController : MonoBehaviour
     {
         var slot = slots.Find(s => s.slotType == item.slotType);
         if (slot == null || slot.attachPoint == null) return;
-
+        
         if (slot.currentObject != null)
            ResourceManager.Instance.Destroy(slot.currentObject);
         
-        var go = ResourceManager.Instance.InstantiatePrefab(item.itemName, slot.attachPoint);
+        var go = ResourceManager.Instance.InstantiatePrefab("ScriptableObject/" + item.itemName);        
+        go.transform.parent = slot.attachPoint;
         go.transform.localPosition = item.localPosition;
         go.transform.localEulerAngles = item.localRotation;
-        go.transform.localScale = item.localScale;
+       
+        // 부모에 의해서 0.06 정도 로컬 스케일로 되는데, 이 코드는 1로 만들어버림 (너무 커짐)
+        // go.transform.localScale = item.localScale;  
 
         slot.currentObject = go;
     }

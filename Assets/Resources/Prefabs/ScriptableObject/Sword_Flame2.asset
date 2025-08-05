@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935c501ebbf3ebd44ab1a29d60a861b5, type: 3}
-  m_Name: Sword_Flame
+  m_Name: Sword_Flame2
   m_EditorClassIdentifier: 
-  itemName: Test_Prefab1
+  itemName: Test_Prefab2
   slotType: 2
   icon: {fileID: 0}
-  prefab: {fileID: 2813095348984218450, guid: adcc560214308ba4dadfe0549ab0a485, type: 3}
+  prefab: {fileID: 752038607847023166, guid: 2e8cd8b864d01844bb38263630b25585, type: 3}
   localPosition: {x: 0, y: 0, z: 0}
   localRotation: {x: 0, y: 0, z: 0}
   localScale: {x: 1, y: 1, z: 1}

@@ -22,11 +22,15 @@ public class EnemyController : LaneObject, IDamageable
         }
     }
     public event Action<float> m_OnHPChanged;
+
+    public int m_Exp = 100;
+    
     HitEffectController hitEffectController;
 
     private void Awake()
     {
         hitEffectController = GetComponent<HitEffectController>();
+        Init();
     }
 
     public override void Init()
@@ -39,10 +43,24 @@ public class EnemyController : LaneObject, IDamageable
         m_Hp -= damage;
         hitEffectController.PlayDamageFont(damage, attackerPos);
     }
-    
+
+    public void GetPlayerExp(int exp)
+    {
+        int PlayerLvUpExp = 100;
+
+        UIDataStats.Exp.Value += exp;
+
+        if (UIDataStats.Exp.Value >= PlayerLvUpExp)
+        {
+            UIDataStats.Exp.Value -= PlayerLvUpExp;
+            UIDataStats.Level.Value += 1;
+        }
+    }
+
     public override void Die()
     {
         DEBUG_LOG($"Die: '{gameObject.name}'");
+        GetPlayerExp(m_Exp);
         ResourceManager.Instance.Destroy(gameObject);
     }
 }
