@@ -2,6 +2,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+/// <summary>
+/// 도로 위에 나오는 아이템 선택지 그룹 컨트롤러
+/// </summary>
+/// 
 public class ChoiceItemGroup : MonoBehaviour
 {
     List<ChoiceItem> m_choiceItems = new List<ChoiceItem>();

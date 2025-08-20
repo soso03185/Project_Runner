@@ -2,6 +2,9 @@ using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
 
+/// <summary>
+/// 맵 에디터, 마지막으로 배치했던 맵 프리셋 뒤에 프리셋이 생성됨
+/// </summary>
 public class MapEditorWindow : EditorWindow
 {
     private enum EditMode { Preset, Object }

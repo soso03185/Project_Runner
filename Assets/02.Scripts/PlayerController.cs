@@ -81,8 +81,8 @@ public class PlayerController : MonoBehaviour, IDamageable
         float newX = Mathf.Lerp(transform.position.x, m_TargetPos.x, m_LaneSwitchSpeed * Time.fixedDeltaTime);
 
         // 전진 거리 계산
-         float newZ = transform.position.z + m_ForwardSpeed * Time.fixedDeltaTime;
-         Vector3 newPosition = new Vector3(newX, transform.position.y, newZ);
+        float newZ = transform.position.z + m_ForwardSpeed * Time.fixedDeltaTime;
+        Vector3 newPosition = new Vector3(newX, transform.position.y, newZ);
 
         m_Rigidbody.MovePosition(newPosition);
     }
@@ -140,7 +140,6 @@ public class PlayerController : MonoBehaviour, IDamageable
         m_TargetPos = new Vector3(targetX, transform.position.y, transform.position.z);
     }
 
-
     public void UpdateDie()
     {
 
@@ -169,6 +168,7 @@ public class PlayerController : MonoBehaviour, IDamageable
 
     public void TakeDamage(float damage, Vector3 attackPos)
     {
+
     }
 
     void Attack(LaneObject laneObj)
@@ -198,7 +198,7 @@ public class PlayerController : MonoBehaviour, IDamageable
         if (other.gameObject.CompareTag("Enemy"))
         {
             LaneObject laneObj = other.gameObject.GetComponent<LaneObject>();
-          //  if (laneObj.m_CurrentLane == m_curLaneIndex)
+        //  if (laneObj.m_CurrentLane == m_curLaneIndex)
             {
                 if (m_IsKnockBack == false)
                 {

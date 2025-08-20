@@ -1,6 +1,9 @@
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// 피격 이펙트 컨트롤러
+/// </summary>
 public class HitEffectController : MonoBehaviour
 {
     [SerializeField] Transform damageFontAnchor;

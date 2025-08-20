@@ -1,6 +1,10 @@
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// 자동으로 업데이트 할 수 있게, 옵저버 패턴과 연결된 UI의 컨트롤러
+/// </summary>
+/// 
 public class UIController : Singleton<UIController>
 {
     public TextMeshProUGUI m_CoinText;
@@ -35,5 +39,4 @@ public class UIController : Singleton<UIController>
     {
         m_LevelText.text = $"LV : {level.ToString()}";
     }
-
 }

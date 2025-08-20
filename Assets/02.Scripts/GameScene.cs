@@ -14,7 +14,7 @@ public class GameScene : Singleton<GameScene>
     {
         Init();
         StartGameScene();
-        // StartLobbyScene();
+        //StartLobbyScene();
     }
     
     void Init()

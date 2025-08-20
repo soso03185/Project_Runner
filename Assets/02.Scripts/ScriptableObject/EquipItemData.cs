@@ -2,6 +2,10 @@
 using UnityEngine;
 using static Define;
 
+/// <summary>
+/// SO로서, 장착할 수 있는 장비 아이템
+/// </summary>
+/// 
 [CreateAssetMenu(menuName = "Item/EquipItem", fileName = "NewEquipItem")]
 public class EquipItemData : ScriptableObject
 {

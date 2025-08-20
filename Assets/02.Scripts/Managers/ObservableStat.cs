@@ -1,5 +1,10 @@
 using System;
 using UnityEngine;
+
+/// <summary>
+/// 옵저버 패턴으로 만들게 된, 플레이어의 모든 데이터 스탯 관리
+/// </summary>
+/// <typeparam name="T"></typeparam>
 public class ObservableStat<T>
 {
     private T _value;
