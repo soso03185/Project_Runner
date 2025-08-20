@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 5fc500964447c5a41a892ec2f07dd64b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: a24b39cbe4939bc4d83b28f1c8f1760d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: concreat
     second: {fileID: 2100000, guid: 1d4eb28734fd7634eb9e48ca104adfa4, type: 2}
   - first:
@@ -14,6 +24,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: concreat.001
     second: {fileID: 2100000, guid: 550c9f032668eb44ba9047876bf0506e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: a39dc96f5ca504344a39dd48345ab749, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
