@@ -75,7 +75,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7430966040972171919}
-  m_Mesh: {fileID: 3821597857095026918, guid: 731b81c6b55c1594196888a941851074, type: 3}
+  m_Mesh: {fileID: -51770673468091671, guid: 4413be1f859e0a844b7c53dba166cc99, type: 3}
 --- !u!23 &8406612800437386102
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -99,7 +99,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a7df2befa1301644e95bf72fe6d30f26, type: 2}
+  - {fileID: 2100000, guid: cff70fc08bdc7ba4980ac34a587bb8ad, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -134,6 +134,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CurrentLane: 1
+  m_Exp: 100
+  m_Atk: 10
+  m_AtkRange: 10
+  m_AtkDelay: 3
+  m_AtkHoldingTime: 0.7
+  atkColController: {fileID: 0}
 --- !u!114 &1726214977340011879
 MonoBehaviour:
   m_ObjectHideFlags: 0
