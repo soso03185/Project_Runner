@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: J_OB.001
+    second: {fileID: 2100000, guid: 9ac48083f8586824588b1cd9f3f6d63e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: J_city
     second: {fileID: 2100000, guid: 2878b996a2f83c244af7856b7c9a5199, type: 2}
   materials:

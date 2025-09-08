@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: b2f72d74f36e2a3419ae9c8af18d05b7
+guid: 6ce6779d58c29ad479e8757f43e18008
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: J_city
-    second: {fileID: 2100000, guid: 2878b996a2f83c244af7856b7c9a5199, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

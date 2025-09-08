@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 2d0821525584ffd43a0a842d20856404
+guid: b2f72d74f36e2a3419ae9c8af18d05b7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_OB.001
+    second: {fileID: 2100000, guid: 9ac48083f8586824588b1cd9f3f6d63e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
