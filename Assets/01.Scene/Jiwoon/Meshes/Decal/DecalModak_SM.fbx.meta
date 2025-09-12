@@ -3,7 +3,12 @@ guid: d428ae83f63391f4ea7ed8e51108e96b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Decal
+    second: {fileID: 2100000, guid: 01e11e195c0838b49a58b7134d8f93d8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

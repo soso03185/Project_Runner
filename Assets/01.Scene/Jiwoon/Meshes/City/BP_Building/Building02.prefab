@@ -2328,7 +2328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.601266
+      value: 3.0740407
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2340,7 +2340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.5385
+      value: -2.0656
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2374,6 +2374,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5754084199372789682, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4997645631145572522, guid: b0e0b3fbf4136e3468c5157e463ab099, type: 3}
     - target: {fileID: 919132149155446097, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_Name
       value: Glass (77)
@@ -5706,11 +5710,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.192266
+      value: -2.574528
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.2917876
+      value: 4.2918
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5718,7 +5722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.4944
+      value: -6.6951
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5750,8 +5754,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5754084199372789682, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -23914957014204305, guid: 6f9e361177c0ed144b1d0b9612db3e6b, type: 3}
     - target: {fileID: 919132149155446097, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_Name
       value: Glass (78)

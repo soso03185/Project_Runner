@@ -316,11 +316,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2088577
+      value: -1.3325187
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.9286
+      value: -0.9179
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -358,6 +358,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5754084199372789682, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -472094246014020118, guid: c24cc59593ed1324080a9b2abd18dc14, type: 3}
     - target: {fileID: 919132149155446097, guid: aeee27a4206b0c048a083b0c97b6a55e, type: 3}
       propertyPath: m_Name
       value: Glass_SM
